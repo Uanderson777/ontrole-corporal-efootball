@@ -1,0 +1,44 @@
+# Python bytecode and test artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local Python environments
+.venv313/
+.venv*/
+venv/
+env/
+
+# Local settings, credentials, and secrets
+.vscode/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secret*
+
+# MediaPipe model assets are downloaded separately
+*.task
+
+# Temporary and editor files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# This repository is the Python project; keep adjacent Java exercises and
+# compiled Java output out of its publication set.
+*.java
+*.class
+
+# Unrelated scratch files in the current workspace directory
+Untitled-6.txt
